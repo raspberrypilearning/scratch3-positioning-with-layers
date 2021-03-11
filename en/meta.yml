@@ -1,11 +1,9 @@
-title: scratch3-positioning-with-layers
+title: Positioning sprites with layers
 hero_image: images/banner.png
-description: scratch3-positioning-with-layers description
+description: You can position sprites so that they appear in front or behind other sprites.
 version: 4
 listed: false
 copyedit: false
 last_tested: "2021-03-11"
 steps:
-  - title: Introduction
-  - title: Step title
-  - title: What next?
+  - title: Positioning sprites with layers
