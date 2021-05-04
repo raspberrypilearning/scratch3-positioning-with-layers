@@ -1,14 +1,14 @@
-## Position sprites with layers
+## Plaats sprites in lagen
 
-There are two ways to position your sprite into layers.
+Er zijn twee manieren om je sprite in lagen te plaatsen.
 
-You can drag a sprite on the Stage to move it to the front layer.
+Je kunt een sprite in het werkgebied slepen om deze naar de voorste laag te plaatsen.
 
-![[Dragging a sprite on the Stage to move it to the front, then dragging another sprite to move it to the front.](images/drag-sprite-change-layers.gif){:width="300px"}
+! [[Een sprite in het werkgebied slepen om deze naar voren te plaatsen, en vervolgens een andere sprite slepen om deze naar voren te plaatsen.](images/drag-sprite-change-layers.gif){:width="300px"}
 
-You can also use a `go to front layer`{:class="block3looks"} or `go to back layer`{:class="block3looks"} block to position a sprite.
+Je kunt ook een `ga naar laag voorgrond`{:class="block3looks"} of `ga naar laag achtergrond`{:class="block3looks"} blok gebruiken om een sprite te positioneren.
 
-If you want a sprite to always stay at the `front`{:class="block3looks"} or `back`{:class="block3looks"}, use a `forever`{:class="block3control"} loop to make the sprite move back to the correct layer if you accidentally move it.
+Als je wilt dat een sprite altijd op de `voorste laag`{:class="block3looks"} of `achterste laag`{:class="block3looks"} blijft, gebruik dan een `herhaal`{:class="block3control"} lus om de sprite terug naar de juiste laag te plaatsen voor als je hem per ongeluk verplaatst.
 
 ```blocks3
 when flag clicked
