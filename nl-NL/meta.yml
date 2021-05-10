@@ -1,0 +1,10 @@
+---
+title: Plaats sprites in lagen
+hero_image: images/banner.png
+description: Je kunt sprites zo plaatsen dat ze voor of achter andere sprites verschijnen.
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-03-11"
+steps:
+  - title: Plaats sprites in lagen
