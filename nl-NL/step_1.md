@@ -4,7 +4,7 @@ Er zijn twee manieren om je sprite in lagen te plaatsen.
 
 Je kunt een sprite in het werkgebied slepen om deze naar de voorste laag te plaatsen.
 
-! [[Een sprite in het werkgebied slepen om deze naar voren te plaatsen, en vervolgens een andere sprite slepen om deze naar voren te plaatsen.](images/drag-sprite-change-layers.gif){:width="300px"}
+[Een sprite in het werkgebied slepen om deze naar voren te plaatsen, en vervolgens een andere sprite slepen om deze naar voren te plaatsen.](images/drag-sprite-change-layers.gif){:width="300px"}
 
 Je kunt ook een `ga naar laag voorgrond`{:class="block3looks"} of `ga naar laag achtergrond`{:class="block3looks"} blok gebruiken om een sprite te positioneren.
 
