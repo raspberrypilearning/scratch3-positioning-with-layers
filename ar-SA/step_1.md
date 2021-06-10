@@ -1,14 +1,14 @@
 ## موضع الكائنات المتحركة مع الطبقات
 
-هناك طريقتان لوضع الكائن الخاص بك في طبقات.
+There are two ways to position your sprites into layers.
 
-يمكنك سحب كائن على المنصة لنقله إلى الطبقة الأمامية.
+You can drag a sprite on the Stage to move it to the front layer:
 
-![[اسحب كائنًا على المنصة لنقله إلى الأمام، ثم اسحب كائنًا آخر لنقله إلى الأمام.](images/drag-sprite-change-layers.gif){:width="300px"}
+![Dragging a sprite on the Stage to move it to the front, then dragging another sprite to move it to the front.](images/drag-sprite-change-layers.gif){:width="300px"}
 
 يمكنك أيضًا استخدام `انتقل إلى الطبقة الاولى`{:class="block3looks"} أو `انتقل إلى الطبقة الاخيرة`{:class="block3looks"} لوضع كائن.
 
-إذا كنت تريد أن يبقى كائن ما دائمًا في `الامام`{:class="block3looks"} أو `الخلف`{:class="block3looks"}، فاستخدم حلقة تكرار `كرر باستمرار`{:class="block3control"} لجعل الكائن يعود إلى الطبقة الصحيحة إذا قمت بنقله عن طريق الخطأ.
+If you want a sprite to always stay at the `front`{:class="block3looks"} or `back`{:class="block3looks"}, use a `forever`{:class="block3control"} loop to make the sprite move back to the correct layer if you accidentally move it:
 
 ```blocks3
 when flag clicked
