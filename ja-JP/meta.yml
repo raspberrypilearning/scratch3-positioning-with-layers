@@ -1,11 +1,11 @@
 ---
-title: Position sprites with layers
+title: レイヤーを使用してスプライトを配置する
 hero_image: images/banner.png
-description: You can position sprites so that they appear in front or behind other sprites.
+description: 他のスプライトの前または後ろに表示されるように、スプライトを配置できます。
 version: 4
 listed: false
 copyedit: false
 last_tested: "2021-03-11"
 steps:
   - 
-    title: Position sprites with layers
+    title: レイヤーを使用してスプライトを配置する
