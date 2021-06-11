@@ -1,14 +1,14 @@
-## Position sprites with layers
+## レイヤーを使用してスプライトを配置する
 
-There are two ways to position your sprites into layers.
+スプライトをレイヤーに配置する方法は 2 つあります。
 
-You can drag a sprite on the Stage to move it to the front layer:
+スプライトをステージ上でドラッグして、最前面のレイヤーに移動できます。
 
-![Dragging a sprite on the Stage to move it to the front, then dragging another sprite to move it to the front.](images/drag-sprite-change-layers.gif){:width="300px"}
+![ステージ上でスプライトをドラッグして「さいぜんめん」に移動し、別のスプライトをドラッグして最前面に移動します。](images/drag-sprite-change-layers.gif){:width="300px"}
 
-You can also use a `go to front layer`{:class="block3looks"} or `go to back layer`{:class="block3looks"} block to position a sprite.
+`"さいぜんめん"へいどうする`{:class="block3looks"} または `"さいはいめん"へいどうする`{:class="block3looks"} ブロックを使用し移動することもできます。
 
-If you want a sprite to always stay at the `front`{:class="block3looks"} or `back`{:class="block3looks"}, use a `forever`{:class="block3control"} loop to make the sprite move back to the correct layer if you accidentally move it:
+スプライトを常に `さいぜんめん`{:class="block3looks"} または `さいはいめん`{:class="block3looks"} にしたい場合は、 `ずっと`{:class="block3control"} ループを使用してスプライトを間違って移動したら、スプライトを正しいレイヤーに戻します。
 
 ```blocks3
 when flag clicked
