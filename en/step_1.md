@@ -1,5 +1,3 @@
-## Position sprites with layers
-
 There are two ways to position your sprites into layers.
 
 You can drag a sprite on the Stage to move it to the front layer:
