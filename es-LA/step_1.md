@@ -1,14 +1,14 @@
-## Position sprites with layers
+## Posicionar objetos en capas
 
-There are two ways to position your sprites into layers.
+Hay dos formas de colocar tus objetos en capas.
 
-You can drag a sprite on the Stage to move it to the front layer:
+Puedes arrastrar un objeto en el Escenario para moverlo a la capa del frente:
 
-![Dragging a sprite on the Stage to move it to the front, then dragging another sprite to move it to the front.](images/drag-sprite-change-layers.gif){:width="300px"}
+![Arrastrar un objeto en el Escenario para moverlo al frente, luego arrastrar otro objeto para moverlo al frente.](images/drag-sprite-change-layers.gif){:width="300px"}
 
-You can also use a `go to front layer`{:class="block3looks"} or `go to back layer`{:class="block3looks"} block to position a sprite.
+También puedes usar un bloque `ir a la capa del frente`{:class="block3looks"} o `ir a la capa de atrás`{:class="block3looks"} para posicionar un objeto.
 
-If you want a sprite to always stay at the `front`{:class="block3looks"} or `back`{:class="block3looks"}, use a `forever`{:class="block3control"} loop to make the sprite move back to the correct layer if you accidentally move it:
+Si quieres que un objeto se quede siempre en la capa `del frente`{:class="block3looks"} o `de atrás`{:class="block3looks"}, usa un bucle `por siempre`{:class="block3control"} para hacer que el objeto regrese a la capa correcta si lo mueves accidentalmente:
 
 ```blocks3
 when flag clicked
