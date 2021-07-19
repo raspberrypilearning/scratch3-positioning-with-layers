@@ -1,7 +1,7 @@
 ---
 title: موضع الكائنات المتحركة مع الطبقات
 hero_image: images/banner.png
-description: يمكنك وضع الكائنات بحيث تظهر أمام أو خلف الكائنات الأخرى.
+description: You can position sprites so that they appear in front of or behind other sprites
 version: 4
 listed: false
 copyedit: false
