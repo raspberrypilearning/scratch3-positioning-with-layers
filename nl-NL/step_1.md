@@ -1,6 +1,6 @@
 There are two ways to position your sprites into layers.
 
-You can drag a sprite on the Stage to move it to the front layer:
+Je kunt een sprite in het werkgebied slepen om deze naar de voorste laag te plaatsen:
 
 ![Dragging a sprite on the Stage to move it to the front, then dragging another sprite on the Stage to move it to the front.](images/drag-sprite-change-layers.gif){:width="300px"}
 
