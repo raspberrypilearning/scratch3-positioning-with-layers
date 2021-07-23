@@ -1,6 +1,6 @@
 スプライトをレイヤーに配置する方法は 2 つあります。
 
-スプライトをステージ上でドラッグして、最前面のレイヤーに移動できます。
+スプライトをステージ上でドラッグして、最前面のレイヤーに移動できます:
 
 ![Dragging a sprite on the Stage to move it to the front, then dragging another sprite on the Stage to move it to the front.](images/drag-sprite-change-layers.gif){:width="300px"}
 
