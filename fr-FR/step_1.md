@@ -11,5 +11,5 @@ Si tu veux qu'un sprite reste toujours à l'`avant`{:class="block3looks"} ou à 
 ```blocks3
 when green flag clicked
 répéter indéfiniment
-aller à l' [avant v] // ou l'arrière
+go to [front v] layer // ou l'arrière
 ```
