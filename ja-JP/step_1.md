@@ -2,9 +2,9 @@
 
 スプライトをステージ上でドラッグして、最前面のレイヤーに移動できます:
 
-![Dragging a sprite on the Stage to move it to the front, then dragging another sprite on the Stage to move it to the front.](images/drag-sprite-change-layers.gif){:width="300px"}
+![ステージ上のスプライトをドラッグして最前面に移動し、そしてまた別のスプライトをドラッグして最前面に移動します。](images/drag-sprite-change-layers.gif){:width="300px"}
 
-Alternatively, you can use a `go to front layer`{:class="block3looks"} or `go to back layer`{:class="block3looks"} block to position a sprite.
+別の方法として、 `最前面へ移動する`{：クラス=「block3looks」}または `最背面へ移動する`{：クラス=「block3looks」}ブロックを使用し、スプライトを配置することができます。
 
 スプライトを常に `さいぜんめん`{:class="block3looks"} または `さいはいめん`{:class="block3looks"} にしたい場合は、 `ずっと`{:class="block3control"} ループを使用してスプライトを間違って移動したら、スプライトを正しいレイヤーに戻します。
 
