@@ -1,12 +1,12 @@
-There are two ways to position your sprites into layers.
+Υπάρχουν δύο τρόποι για να τοποθετήσεις τα αντικείμενά σου σε επίπεδα.
 
-You can drag a sprite on the Stage to move it to the front layer:
+Μπορείς να σύρεις ένα αντικείμενο στη Σκηνή για να το μετακινήσεις στο προσκήνιο:
 
-![Dragging a sprite on the Stage to move it to the front, then dragging another sprite on the Stage to move it to the front.](images/drag-sprite-change-layers.gif){:width="300px"}
+![Σύρε ένα αντικείμενο στη Σκηνή για να το μετακινήσεις στο προσκήνιο, έπειτα σύρε ένα άλλο αντικείμενο στη Σκηνή για να το μετακινήσεις στο προσκήνιο.](images/drag-sprite-change-layers.gif){:width="300px"}
 
-Alternatively, you can use a `go to front layer`{:class="block3looks"} or `go to back layer`{:class="block3looks"} block to position a sprite.
+Εναλλακτικά, μπορείς να χρησιμοποιήσεις ένα μπλοκ `πήγαινε σε επίπεδο προσκήνιο`{: class = "block3looks"} ή `πήγαινε σε επίπεδο υπόβαθρο`{: class = "block3looks"} για να τοποθετήσεις ένα αντικείμενο.
 
-If you want a sprite to always stay at the `front`{:class="block3looks"} or `back`{:class="block3looks"}, use a `forever`{:class="block3control"} loop to make the sprite move back to the correct layer if you accidentally move it:
+Αν θέλεις ένα αντικείμενο να παραμένει πάντα στο `προσκήνιο`{: class = "block3looks"} ή στο `υπόβαθρο`{: class = "block3looks"}, χρησιμοποίησε έναν βρόχο `για πάντα`{: class = "block3control"} για να κάνεις το αντικείμενο να επιστρέφει στο σωστό επίπεδο εάν το μετακινήσεις κατά λάθος:
 
 ```blocks3
 when flag clicked
