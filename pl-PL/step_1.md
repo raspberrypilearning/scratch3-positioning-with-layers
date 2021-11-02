@@ -1,12 +1,12 @@
-There are two ways to position your sprites into layers.
+Są dwa sposoby umieszczania/pozycjonowania duszków na warstwach.
 
-You can drag a sprite on the Stage to move it to the front layer:
+Możesz przeciągnąć duszka na scenę, aby przenieść go na wierzch:
 
-![Dragging a sprite on the Stage to move it to the front, then dragging another sprite on the Stage to move it to the front.](images/drag-sprite-change-layers.gif){:width="300px"}
+![Przeciągnięcie duszka na scenę, aby przenieść go na wierzch, a następnie przeciągnięcie innego duszka na scenę, aby teraz tego przenieść go na wierzch.](images/drag-sprite-change-layers.gif){:width="300px"}
 
-Alternatively, you can use a `go to front layer`{:class="block3looks"} or `go to back layer`{:class="block3looks"} block to position a sprite.
+Alternatywnie możesz użyć `przesuń na wierzch`{:class="block3looks"} lub `przesuń na spód`{:class="block3looks"}, aby umiejscowić duszka.
 
-If you want a sprite to always stay at the `front`{:class="block3looks"} or `back`{:class="block3looks"}, use a `forever`{:class="block3control"} loop to make the sprite move back to the correct layer if you accidentally move it:
+Jeśli chcesz, aby duszek zawsze pozostawał na warstwie `wierzch`{:class="block3looks"} lub `spód`{:class="block3looks"}, użyj `zawsze`{:class="block3control"}, aby duszek cofał się do właściwej warstwy, jeśli przypadkowo go przesuniesz:
 
 ```blocks3
 when flag clicked
