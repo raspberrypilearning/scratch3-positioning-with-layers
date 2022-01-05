@@ -1,12 +1,12 @@
-There are two ways to position your sprites into layers.
+Mae dwy ffordd i leoli dy gorluniau mewn haenau.
 
-You can drag a sprite on the Stage to move it to the front layer:
+Galli di lusgo corlun ar i'r Llwyfan i'w symud i'r haen flaen:
 
-![Dragging a sprite on the Stage to move it to the front, then dragging another sprite on the Stage to move it to the front.](images/drag-sprite-change-layers.gif){:width="300px"}
+![Llusgo sprite ar y Llwyfan i'w symud i'r blaen, wedyn llusgo corlun arall ar i'r Llwyfan i'w symud i'r blaen.](images/drag-sprite-change-layers.gif){:width="300px"}
 
-Alternatively, you can use a `go to front layer`{:class="block3looks"} or `go to back layer`{:class="block3looks"} block to position a sprite.
+Neu, galli di ddefnyddio bloc `mynd i haen blaen`{:class="block3looks"} neu `mynd i haen cefn`{:class="block3looks"} i leoli corlun.
 
-If you want a sprite to always stay at the `front`{:class="block3looks"} or `back`{:class="block3looks"}, use a `forever`{:class="block3control"} loop to make the sprite move back to the correct layer if you accidentally move it:
+Os wyt ti am i gorlun aros yn y `blaen`{:class="block3looks"} neu'r `cefn`{:class="block3looks"} bob amser, defnyddia ddolen `am byth`{:class="block3control"} i wneud i'r corlun symud yn ôl i'r haen gywir os byddi di'n ei symud yn ddamweiniol:
 
 ```blocks3
 when flag clicked
