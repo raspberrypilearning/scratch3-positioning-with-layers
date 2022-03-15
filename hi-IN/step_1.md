@@ -1,12 +1,12 @@
-There are two ways to position your sprites into layers.
+आपके स्प्राइट्स को परतों में रखने के दो तरीके हैं।
 
-You can drag a sprite on the Stage to move it to the front layer:
+आप एक स्प्राइट को मंच पर आगे की परत पर ले जाने के लिए खींच सकते हैं:
 
-![Dragging a sprite on the Stage to move it to the front, then dragging another sprite on the Stage to move it to the front.](images/drag-sprite-change-layers.gif){:width="300px"}
+![एक प्रेत को मंच पर आगे की ओर ले जाने के लिए उसे खींचकर, फिर मंच पर एक अन्य स्प्राइट को आगे की ओर ले जाने के लिए उसे खींच कर।](images/drag-sprite-change-layers.gif){:width="300px"}
 
-Alternatively, you can use a `go to front layer`{:class="block3looks"} or `go to back layer`{:class="block3looks"} block to position a sprite.
+दूसरे तरीके से, आप `go to front layer`{:class="block3looks"} या `go to back layer`{:class="block3looks"} ब्लॉक का उपयोग कर सकते हैं।
 
-If you want a sprite to always stay at the `front`{:class="block3looks"} or `back`{:class="block3looks"}, use a `forever`{:class="block3control"} loop to make the sprite move back to the correct layer if you accidentally move it:
+अगर आप चाहते हैं कि एक प्रेत हमेशा `सामने`{:class="block3looks"} या `पीछे`{:class="block3looks"} पर बना रहे, तो बनाने के लिए `forever`{:class="block3control"} लूप का उपयोग करें यदि आप गलती से इसे ले जाते हैं तो स्प्राइट सही परत पर वापस चला जाता है:
 
 ```blocks3
 when flag clicked
