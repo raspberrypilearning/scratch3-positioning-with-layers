@@ -1,11 +1,11 @@
 ---
-title: Position sprites with layers
+title: परतों के साथ स्थिति स्प्राइट्स
 hero_image: images/banner.png
-description: You can position sprites so that they appear in front of or behind other sprites
+description: आप स्प्राइट्स की स्थिति बना सकते हैं ताकि वे अन्य स्प्राइट्स के सामने या पीछे दिखाई दें
 version: 4
 listed: false
 copyedit: false
 last_tested: "2021-03-11"
 steps:
   - 
-    title: Position sprites with layers
+    title: परतों के साथ स्थिति स्प्राइट्स
