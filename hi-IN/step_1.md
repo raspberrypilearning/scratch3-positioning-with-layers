@@ -6,7 +6,7 @@
 
 दूसरे तरीके से, आप `go to front layer`{:class="block3looks"} या `go to back layer`{:class="block3looks"} ब्लॉक का उपयोग कर सकते हैं।
 
-अगर आप चाहते हैं कि एक प्रेत हमेशा `सामने`{:class="block3looks"} या `पीछे`{:class="block3looks"} पर बना रहे, तो बनाने के लिए `forever`{:class="block3control"} लूप का उपयोग करें यदि आप गलती से इसे ले जाते हैं तो स्प्राइट सही परत पर वापस चला जाता है:
+अगर आप चाहते हैं कि एक प्रेत हमेशा `सामने (front)`{:class="block3looks"} या `पीछे (back)`{:class="block3looks"} पर बना रहे, तो बनाने के लिए `forever`{:class="block3control"} लूप का उपयोग करें यदि आप गलती से इसे ले जाते हैं तो स्प्राइट सही परत पर वापस चला जाता है:
 
 ```blocks3
 when flag clicked
