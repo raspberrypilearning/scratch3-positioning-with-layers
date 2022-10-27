@@ -1,12 +1,12 @@
-There are two ways to position your sprites into layers.
+Є два способи розміщення спрайтів на плані.
 
-You can drag a sprite on the Stage to move it to the front layer:
+Ти можеш перетягнути спрайт на Сцену, щоб перемістити його на передній план:
 
-![Dragging a sprite on the Stage to move it to the front, then dragging another sprite on the Stage to move it to the front.](images/drag-sprite-change-layers.gif){:width="300px"}
+![Перетягни спрайт на Сцену, щоб перемістити його на передній план, потім перетягни інший спрайт на Сцену, щоб перемістити його на передній план.](images/drag-sprite-change-layers.gif){:width="300px"}
 
-Alternatively, you can use a `go to front layer`{:class="block3looks"} or `go to back layer`{:class="block3looks"} block to position a sprite.
+Крім того, ти можеш скористатися блоком `помістити на передній план`{:class="block3looks"} або блоком `помістити на задній план`{:class="block3looks"}, щоб визначити позицію спрайта.
 
-If you want a sprite to always stay at the `front`{:class="block3looks"} or `back`{:class="block3looks"}, use a `forever`{:class="block3control"} loop to make the sprite move back to the correct layer if you accidentally move it:
+Якщо ти хочеш, щоб спрайт завжди залишався на `передньому`{:class="block3looks"} або `задньому`{:class="block3looks"} плані, використовуй цикл `завжди`{:class="block3control"}, щоб змусити спрайт повернутися на правильний план, якщо ти випадково його перемістив:
 
 ```blocks3
 when flag clicked
