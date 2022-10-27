@@ -1,11 +1,11 @@
 ---
-title: Position sprites with layers
+title: Визначення позиції спрайтів на плані
 hero_image: images/banner.png
-description: You can position sprites so that they appear in front of or behind other sprites
+description: Ти можеш розташувати спрайти так, щоб вони з'являлися попереду або позаду інших спрайтів
 version: 4
 listed: false
 copyedit: false
 last_tested: "2021-03-11"
 steps:
   - 
-    title: Position sprites with layers
+    title: Визначення позиції спрайтів на плані
