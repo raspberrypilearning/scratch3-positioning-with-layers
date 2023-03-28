@@ -1,5 +1,5 @@
 ---
-title: Positionner les sprites avec des couches
+title: Positionner les sprites avec des calques
 hero_image: images/banner.png
 description: Tu peux positionner les sprites de manière à ce qu'ils apparaissent devant ou derrière d'autres sprites
 version: 4
@@ -8,4 +8,4 @@ copyedit: false
 last_tested: "2021-03-11"
 steps:
   - 
-    title: Positionner les sprites avec des couches
+    title: Positionner les sprites avec des calques
