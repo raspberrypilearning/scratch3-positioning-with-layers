@@ -1,12 +1,12 @@
-There are two ways to position your sprites into layers.
+Det finns två sätt att placera dina sprajter i lager.
 
-You can drag a sprite on the Stage to move it to the front layer:
+Du kan dra en sprajt på scenen för att flytta den till det främre lagret:
 
-![Dragging a sprite on the Stage to move it to the front, then dragging another sprite on the Stage to move it to the front.](images/drag-sprite-change-layers.gif){:width="300px"}
+![Dra en sprajt på scenen för att flytta fram den, dra sedan en annan sprajt på scenen för att flytta fram den.](images/drag-sprite-change-layers.gif){:width="300px"}
 
-Alternatively, you can use a `go to front layer`{:class="block3looks"} or `go to back layer`{:class="block3looks"} block to position a sprite.
+Annars kan du använda ett `"gå till översta lagret"`{:class="block3looks"}-block eller `"gå till det bakre lagret"`{:class="block3looks"}-block för att placera en sprajt.
 
-If you want a sprite to always stay at the `front`{:class="block3looks"} or `back`{:class="block3looks"}, use a `forever`{:class="block3control"} loop to make the sprite move back to the correct layer if you accidentally move it:
+Om du vill att en sprajt alltid ska vara `framme`{:class="block3looks"} eller `bak`{:class="block3looks"}, använd en `"för alltid"`{:class="block3control"}-loop för att få sprajten att flytta tillbaka till rätt lager om du av misstag flyttar den:
 
 ```blocks3
 when flag clicked
