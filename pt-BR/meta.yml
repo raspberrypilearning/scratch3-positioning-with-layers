@@ -1,5 +1,5 @@
 ---
-title: Posicione atores sobre as camadas
+title: Posicione atores utilizando camadas
 hero_image: images/banner.png
 description: Você pode posicionar atores de forma que eles apareçam na frente ou atrás de outros atores
 version: 4
@@ -8,4 +8,4 @@ copyedit: false
 last_tested: "2021-03-11"
 steps:
   - 
-    title: Posicione atores sobre as camadas
+    title: Posicione atores utilizando camadas
