@@ -1,11 +1,11 @@
 ---
-title: Position sprites with layers
+title: Posiziona gli sprite sui livelli dello Stage
 hero_image: images/banner.png
-description: You can position sprites so that they appear in front of or behind other sprites
+description: Puoi posizionare gli sprite in modo che appaiano davanti o dietro altri sprite
 version: 4
 listed: false
 copyedit: false
 last_tested: "2021-03-11"
 steps:
   - 
-    title: Position sprites with layers
+    title: Posiziona gli sprite sui livelli dello Stage
