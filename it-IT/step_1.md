@@ -1,12 +1,12 @@
-There are two ways to position your sprites into layers.
+Ci sono sue modi per posizionare i tuoi sprite all'interno di un livello.
 
-You can drag a sprite on the Stage to move it to the front layer:
+Puoi trascinare uno sprite sullo Stage per spostarlo in primo piano:
 
-![Dragging a sprite on the Stage to move it to the front, then dragging another sprite on the Stage to move it to the front.](images/drag-sprite-change-layers.gif){:width="300px"}
+![Trascinando uno sprite sullo Stage per spostarlo in primo piano, poi trascinando un altro sprite sullo stage per spostarlo in primo piano.](images/drag-sprite-change-layers.gif){:width="300px"}
 
-Alternatively, you can use a `go to front layer`{:class="block3looks"} or `go to back layer`{:class="block3looks"} block to position a sprite.
+In alternativa, puoi utilizzare un blocco `vai in primo piano`{:class="block3looks"} o `vai in secondo piano`{:class="block3looks"} per posizionare uno sprite.
 
-If you want a sprite to always stay at the `front`{:class="block3looks"} or `back`{:class="block3looks"}, use a `forever`{:class="block3control"} loop to make the sprite move back to the correct layer if you accidentally move it:
+Se vuoi che uno sprite rimanga sempre su `in primo piano`{:class="block3looks"} o `in secondo piano`{:class="block3looks"}, usa un ciclo `per sempre`{:class="block3control"} per fare in modo che lo sprite torni al livello corretto se lo sposti accidentalmente:
 
 ```blocks3
 when flag clicked
