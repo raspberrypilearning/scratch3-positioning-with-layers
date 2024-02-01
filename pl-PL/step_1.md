@@ -11,6 +11,6 @@ Jeśli chcesz, aby duszek zawsze pozostawał na warstwie `wierzch`{:class="block
 ```blocks3
 when flag clicked
 forever
-go to [front v] layer // lub z powrotem
+go to [wierzch v] layer // lub spód
 ```
 
