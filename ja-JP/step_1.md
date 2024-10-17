@@ -6,7 +6,7 @@
 
 別の方法として、 `最前面へ移動する`{：クラス=「block3looks」}または `最背面へ移動する`{：クラス=「block3looks」}ブロックを使用し、スプライトを配置することができます。
 
-スプライトを常に `さいぜんめん`{:class="block3looks"} または `さいはいめん`{:class="block3looks"} にしたい場合は、 `ずっと`{:class="block3control"} ループを使用してスプライトを間違って移動したら、スプライトを正しいレイヤーに戻します。
+スプライトを常に `さいぜんめん`{:class="block3looks"} または `さいはいめん`{:class="block3looks"} にしたい場合は、 `ずっと`{:class="block3control"} ループを使用してスプライトを間違って移動しても、スプライトを正しいレイヤーに戻せるようにします。
 
 ```blocks3
 when flag clicked
