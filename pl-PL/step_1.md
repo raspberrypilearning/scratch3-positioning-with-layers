@@ -9,7 +9,7 @@ Alternatywnie możesz użyć `przesuń na wierzch`{:class="block3looks"} lub `pr
 Jeśli chcesz, aby duszek zawsze pozostawał na warstwie `wierzch`{:class="block3looks"} lub `spód`{:class="block3looks"}, użyj `zawsze`{:class="block3control"}, aby duszek cofał się do właściwej warstwy, jeśli przypadkowo go przesuniesz:
 
 ```blocks3
-when flag clicked
-forever
-go to [front v] layer // or back
+kiedy kliknięto zieloną flagę
+zawsze
+przesuń na [wierzch v] // lub spód
 ```
