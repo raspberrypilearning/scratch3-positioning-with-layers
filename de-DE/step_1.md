@@ -1,12 +1,12 @@
-There are two ways to position your sprites into layers.
+Es gibt zwei Möglichkeiten, die Figuren in Ebenen anzuordnen.
 
-You can drag a sprite on the Stage to move it to the front layer:
+Du kannst eine Figur auf der Bühne ziehen, um es in die vordere Ebene zu verschieben:
 
-![Dragging a sprite on the Stage to move it to the front, then dragging another sprite on the Stage to move it to the front.](images/drag-sprite-change-layers.gif){:width="300px"}
+![Ziehe eine Figur auf der Bühne, um sie nach vorne zu verschieben. Ziehe dann eine andere Figur auf der Bühne, um diese nach vorne zu verschieben.](images/drag-sprite-change-layers.gif){:width="300px"}
 
-Alternatively, you can use a `go to front layer`{:class="block3looks"} or `go to back layer`{:class="block3looks"} block to position a sprite.
+Du kannst auch einen Block vom Typ `gehe zu vorderster Ebene`{:class="block3looks"} oder `gehe zu hinterster Ebene`{:class="block3looks"} verwenden, um eine Figur zu positionieren.
 
-If you want a sprite to always stay at the `front`{:class="block3looks"} or `back`{:class="block3looks"}, use a `forever`{:class="block3control"} loop to make the sprite move back to the correct layer if you accidentally move it:
+Wenn du eine Figur immer im `Vordergrund`{:class="block3looks"} oder `Hintergrund`{:class="block3looks"} halten möchtest, kannst du eine `wiederhole fortlaufend`{:class="block3control"} Schleife verwenden, um die Figur immer wieder in die gewünschte Ebene zu holen, solltest du sie versehentlich woanders hin bewegen:
 
 ```blocks3
 when flag clicked
